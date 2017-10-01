@@ -1,0 +1,325 @@
+
+header{
+    position:fixed;
+    background: white;
+    z-index: 3;
+    margin-top: -95px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width:150px;
+    height:27px;
+    margin-left:115px;
+}
+
+.firstMenu{
+    display: inline-block;
+    font-size:13px;
+    text-decoration:none;
+    color: #9ea7b4;
+    padding-left:20px;
+}
+.firstMenuUl{
+    margin-top: 10px;
+    margin-left: 1028px;
+}
+
+.menuDiv{
+  border-top:0.5px  solid  #9e9490; 
+  border-bottom: 0.5px  solid  #9e9490; 
+  padding-bottom: 0px;
+  margin-left: 0px;
+ }
+
+.secondMenu{
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 100px;
+    text-decoration:none;
+    font-size:13px ;
+}
+
+
+a{
+    text-decoration:none;
+    color: #4b4a45;
+ }
+
+a:hover{
+    color:#0b72bb;
+    text-decoration:none;
+}
+
+#first{
+    clear: left;
+
+}
+
+section {
+   clear: left;
+   width:80%;
+   top:50%;
+   height:1000px;
+
+}
+
+@keyframes horizintalLine {
+    from {width: 0px;}
+    to {width:310px;}
+}
+
+#animate {
+    width: 0px;
+    height: 3px;
+    background-color: #1a82e2;
+    animation-name: horizintalLine;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+.animateContainer{
+    width: 350px;
+    margin-left: 190px;
+} 
+#page{
+    width:900px;
+    margin-top: 100px;
+    margin-left: 225px;
+    text-align: center;
+    padding: 80px;
+}
+footer{
+    position:relative;
+    bottom:0;
+    left:0;
+    /*width:100%;*/
+}
+.whitebtn{
+   border-color: #489be8;
+   background:white;
+   color:#489be8;
+}
+.whitebtn:hover{
+  background: #e8f2fc;
+
+} 
+
+.bluebtn{
+  border-color: #489be8;
+  background: #489be8;
+  color: white;
+}
+
+.bluebtn:hover{
+  background:#1a82e2;  
+}
+
+.btn{
+  padding: 22px,33px;
+  border-width:0.5px;
+  border-radius: 3px;
+  font-size:14px;
+}
+ 
+.links{
+    background-color: #294661;
+    height:173px;
+    margin-left: 370px;
+}
+
+.link-contanier{
+
+    background-color: #294661;
+    
+}
+
+.galery{
+    width:1588px;
+    margin-left:300px;
+    margin-top:50px;
+}
+
+.images{
+   padding-left:35px;
+   padding-right: 35px;
+   height:38px;
+   width:125px;
+   display: inline;
+   box-sizing: content-box;
+}
+
+.cards{
+    width:570px;
+    height:530px ;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0.5px 0.5px 3px #9ba9b5;
+    margin-left:33px;
+
+}
+
+.cards:hover{
+
+    box-shadow: 0.5px 0.5px 10px #9ba9b5;
+
+    
+}
+.cardimg{
+    width:567px;
+    height:298px;
+
+
+
+}
+.cardsCointanier{
+    margin:100px;
+    margin-left: 187px;
+}
+
+.cardHeadline {
+    
+    margin-top: 20px;
+    display:inline-block;
+    color:#29467e;
+
+}
+
+.greenHeadline{
+
+    border-bottom:2px solid #18c96e;
+    
+}
+.blueHeadline{
+
+    border-bottom:2px solid #00bcd4;
+    
+}
+.cardContent{
+    
+    width:280px;
+    text-align: center;
+    padding: 0px;
+    margin:auto;
+    color:#94a2b0;
+
+}
+
+.footerText{
+    text-align:center;
+    color:#546b81;
+    width:625px;
+    font-size: 15px 15px;
+    margin-left:490px;
+    padding-top: 80px;
+
+
+}
+.customers{
+    background:#E9E9E9;
+    /*font-family:colfax-Lite,Helvetica,sans-serif*/
+    font-size: 20px;
+    height: 280px;
+ 
+}
+
+body{
+    font-family: Colfax-Light,Helvetica,sans-serif;
+    /*font-weight: 100;*/
+  
+}
+.center{
+    width:1600px;
+    margin-left:120px;
+ 
+}
+.linkList{
+    list-style-type: none;
+    color:white;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 65px;
+    font-size: 12px;
+
+}
+
+.liLink{
+    color:white;
+    margin-top:50px;
+    font-size: 12px;
+
+}
+
+.footerLi{
+
+    margin-top:15px;
+    width:170px;
+   
+}
+.conbtn{
+    margin-left:47px;
+    
+   
+}
+.btnContanier{
+    margin-top:40px;
+    margin-left:100px;
+
+}
+.moreBtn{
+    
+    margin-top:30px;
+
+}
+.mainHeadline{
+    font-size:40px;
+    height: 29px;
+    color:#294661
+
+}
+.secondHeadline{
+    margin-top:30px;
+    font-size:20px;
+    font-weight: 100;
+    line-height: 150%;
+    width:612px;
+    margin-left:178px;
+    color:#294661
+
+}
+.headlineBtn{
+    padding:19px 33px ;
+    font-size:16px;
+    margin-left:15px;
+
+}
+
+.simpleBtn{
+    padding:20px 17px ;
+
+}
+.bgwhite{
+    background: white;
+    z-index: 100;
+
+
+
+}
+body{
+
+    background: #E9E9E9;
+    z-index: 1;
+
+}
+/*.vav
+{
+    margin-left: -120px;
+
+
+}*/
+
